@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+body {
+    font-size: 18px;
+    background-color: #66deb2;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-item--checked {
+    text-decoration: line-through;
+    color: gray;
+}
+
+button {
+    cursor: pointer;
+}
